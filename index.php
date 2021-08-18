@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body onload="hello()">
 
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
@@ -341,6 +341,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+  function hello(){
+    alert("Hi, I'm Kayode, Welcome to my Website");
+    }
+  </script>
 
 </body>
 
