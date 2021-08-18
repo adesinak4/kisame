@@ -1,4 +1,4 @@
-<?php require '<forms/connect.php'; ?>
+<?php require 'forms/connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 

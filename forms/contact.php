@@ -12,7 +12,7 @@ if(isset($_POST['submit']))
 
 	if ($conn->query($sql) === TRUE) {
 		echo '<script>alert("Your contact details and message has been received")</script>';
-		header("refresh:1; /kisame/index.php");
+		header("refresh:1; /index.php");
 	} else {
 	echo "Error: " . $sql . "<br>" . $conn->error;
 	}
